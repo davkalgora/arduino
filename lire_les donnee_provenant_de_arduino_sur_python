@@ -1,0 +1,9 @@
+import serial
+ser = serial.Serial('/dev/ttyUSB0',9600)
+#/dev/ttyUSB0 à modifier avec le port de la carte arduino 
+# cette info est donnee par l'interface java arduino
+print ser
+while True:  #mettre autre condition, un compteur par exemple
+    x = ser.readline()          # read one byte
+    print "x=", x
+ser.close()
