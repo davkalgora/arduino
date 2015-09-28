@@ -1,0 +1,13 @@
+#######installation######
+installer l'ide arduino
+#installer sublime text
+#télécharger le plugin arduino pour sublime text à l'adresse https://github.com/Robot-Will/Stino
+#décompressé le plugin télécharger
+# copier ce plugin dans le dossier pakages de sublime text dans mon cas sous ubuntu c'est le dossier /home/dakar/.config/sublime-text-3/pakages
+#relancé sublime text
+#un nouveau menu arduino va apparaitre dans sublime text
+#dans le menu arduino choisir la langue dans mon cas français
+####configuration###################
+#dans le menu arduino choisir préférences puis selectionner le dossier de l'application arduino (Sous Windows : C:/Program Files/Arduino/
+Sous Linux : /usr/share/arduino/ Sous Mac : /Applications/Arduino.app (non vérifié))
+#dans le menu arduino choisir préférences puis changer le dossier de projet
